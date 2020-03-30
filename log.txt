@@ -1,0 +1,22 @@
+concert-this Celine Dion Sun Mar 29 2020 19:00:55 GMT-0500
+Celine Dion next concert: 
+Date: 03/29/2020
+Venue: Gila River Arena
+City: Glendale
+Region: AZ
+
+spotify-this-song All the Small Things Sun Mar 29 2020 19:01:39 GMT-0500
+Song: All the Small Things
+Band/Artist: blink-182
+Link to song: https://open.spotify.com/artist/6FBDaR13swtiWwGhX1WQsP
+Album: Enema Of The State
+
+movie-this The Sting Sun Mar 29 2020 19:02:30 GMT-0500
+The Sting summary as follows:
+Year: 1973
+IMDB rating: 8.3
+Rotten Tomatoes: 83
+Country: USA
+Language: English
+Plot: Two grifters team up to pull off the ultimate con.
+Actors: Paul Newman, Robert Redford, Robert Shaw, Charles Durning
