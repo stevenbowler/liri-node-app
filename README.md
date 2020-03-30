@@ -14,7 +14,7 @@ To run `liri-node-app` the user must follow these steps:
 
 1. Access the command line interpreter to run `liri-node-app`.
 2. Go to the directory where `liri.js` is located.
-3. Enter `node liri-node-app Argument1 "Argument2"`
+3. Enter `node liri Argument1 "Argument2"`
 4. Where `Argument1` must be one of either `movie-this`, `concert-this`, `spotify-this-song`, or `do-what-it-says`.
     1. `movie-this` expects `Argument2` will be a movie name in quotes like `"The Sting"`.
     2. `concert-this` expects `Argument2` will be a concert artist name in quotes like `"Celine Dion"`.
