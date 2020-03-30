@@ -7,11 +7,16 @@ The purpose of this app is to facilite user access to various multi-media source
 To best understand the app functions please first watch the following video: [liri-node-app](https://drive.google.com/file/d/1xYe_HSt5oGko6M5N6QDX_tcd60staga1/view).
 
 
-### Code Organization
 
-The app is fully documented on JS docs and can be accessed [here](https://stevenbowler.github.io/liri-node-app/docs/global.html).
+### Code Organization and Documentation
 
+The app is documented in JS docs and can be accessed [here](https://stevenbowler.github.io/liri-node-app/docs/global.html).
 
+The program enters at `main();` which contains a switch statement that expects one of 4 inputs from command line third argument:
+1. `movie-this` calls `movieThis()` to log movie name, year, rating, actors, plot to console and log.txt
+2. `concert-this` calls `concertThis()` to log artist, venue, date of the artist's next concert to console and log.txt
+3. `spotify-this-song` calls `spotifyThisSong` to log artist, song, album, link to song, to console and log.txt
+4. `do-what-it-says` calls `doWhatItSays` to log item 1, 2, 3 info as called out in file random.txt
 
 
 

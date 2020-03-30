@@ -71,7 +71,7 @@ const appendLogTxt = (text) => {
 
 
 
-/** called from {@link main} based on {@link command}="concert-this", returns next concert related data to console
+/** called from {@link mainEntry} based on {@link command}="concert-this", returns next concert related data to console
  * @function concertThis
  * @param {string} artistBand
 */
@@ -105,7 +105,7 @@ const concertThis = (artistBand) => {
 
 
 
-/** called from {@link main} based on {@link command}="movie-this", returns movie related data to the console
+/** called from {@link mainEntry} based on {@link command}="movie-this", returns movie related data to the console
  * @function movieThis
  * @param {string} movieTitle
  */
@@ -139,7 +139,7 @@ const movieThis = (movieTitle) => {
 
 
 
-/** called from {@link main} based on {@link command}=spotify-this-song returns song data from spotify
+/** called from {@link mainEntry} based on {@link command}=spotify-this-song returns song data from spotify
  * @function spotifyThisSong
  * @param {string} songTitle 
  */
@@ -161,7 +161,7 @@ const spotifyThisSong = (songTitle) => {
 
 
 
-/** called from {@link main} when {@link command}="do-what-it-says"
+/** called from {@link mainEntry} when {@link command}="do-what-it-says"
  * @function doWhatItSays
  */
 const doWhatItSays = () => {
@@ -176,15 +176,15 @@ const doWhatItSays = () => {
         command = dataArr[0];
         title = dataArr[1].replace(/"/g, '');
         // console.log(`command: ${command} title: ${title}`);
-        main();
+        mainEntry();
     });
 }
 
 
 /** main entry point calls {@link spotifyThisSong}, {@link movieThis}, or {@link concertThis} based on {@link command}
- * @function main
+ * @function mainEntry
  */
-const main = () => {
+const mainEntry = () => {
     switch (command) {
         case `concert-this`:
             concertThis(title);
@@ -203,8 +203,7 @@ const main = () => {
             break;
 
         default: console.log(`Sorry, don't recognize this command: ${command}`); break;
-
     }
 }
 
-main();
+mainEntry();
