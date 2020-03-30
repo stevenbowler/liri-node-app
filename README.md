@@ -1,9 +1,20 @@
-# liri-node-app
-Homework 8
-
-# LIRI Bot
+# liri-node-app    Homework 8
 
 ### Overview
+
+The purpose of this app is to facilite user access to various multi-media sources including: [Spotify](https://www.spotify.com) for music, [IMDb](https://www.imdb.com) for movies and [Bands In Town](https://www.artists.bandsintown.com) for upcoming concerts.   It is hoped that this app will be of use to users as they pass time at home during the coronavirus shelter-in-place period.
+
+To best understand the app functions please first watch the following video: [liri-node-app](https://drive.google.com/file/d/1xYe_HSt5oGko6M5N6QDX_tcd60staga1/view).
+
+
+### Code Organization
+
+The app is fully documented on JS docs and can be accessed [here](https://stevenbowler.github.io/liri-node-app/docs/global.html).
+
+
+
+
+
 
 In this assignment, you will make LIRI. LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a _Language_ Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.
 

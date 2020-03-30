@@ -54,7 +54,6 @@ var command = process.argv[2];
 var title = process.argv[3];
 
 
-
 /**called from {@link movieThis}, {@link concertThis}, {@link spotifyThisSong}, output to log.txt file
  * @function appendLogTxt
  * @param {string} text
