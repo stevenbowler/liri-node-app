@@ -20,3 +20,32 @@ Country: USA
 Language: English
 Plot: Two grifters team up to pull off the ultimate con.
 Actors: Paul Newman, Robert Redford, Robert Shaw, Charles Durning
+
+movie-this The Sting Sun Mar 29 2020 19:34:47 GMT-0500
+The Sting summary as follows:
+Year: 1973
+IMDB rating: 8.3
+Rotten Tomatoes: 83
+Country: USA
+Language: English
+Plot: Two grifters team up to pull off the ultimate con.
+Actors: Paul Newman, Robert Redford, Robert Shaw, Charles Durning
+
+concert-this Celine Dion Sun Mar 29 2020 19:35:01 GMT-0500
+Celine Dion next concert: 
+Date: 03/29/2020
+Venue: Gila River Arena
+City: Glendale
+Region: AZ
+
+spotify-this-song All the Small Things Sun Mar 29 2020 19:35:12 GMT-0500
+Song: All the Small Things
+Band/Artist: blink-182
+Link to song: https://open.spotify.com/artist/6FBDaR13swtiWwGhX1WQsP
+Album: Enema Of The State
+
+spotify-this-song All The Small Things Sun Mar 29 2020 19:35:33 GMT-0500
+Song: All The Small Things
+Band/Artist: blink-182
+Link to song: https://open.spotify.com/artist/6FBDaR13swtiWwGhX1WQsP
+Album: Enema Of The State
