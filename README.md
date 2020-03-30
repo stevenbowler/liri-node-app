@@ -8,7 +8,7 @@ In addition to the purpose mentioned above, the exercise of creating `liri-node-
 
 ### User Documentation
 
-To best understand the app functionality, please first watch the following video: [liri-node-app](https://drive.google.com/file/d/1xYe_HSt5oGko6M5N6QDX_tcd60staga1/view).
+To best understand the app functionality, please first watch the following video: [liri-node-app](https://drive.google.com/file/d/10E7WnFGT-kwfidCYFJF2rwrz3oOCrV8y/view).
 
 To run `liri-node-app` the user must follow these steps:
 
