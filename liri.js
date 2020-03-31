@@ -1,30 +1,30 @@
 //@ts-check
 
-/** package hides keys for anyone that wants to clone this app
+/** Package hides keys for anyone that wants to clone this app
  * @type {module}
  */
 require("dotenv").config();
 
 
-/** http get calls
+/** HTTP get calls
  * @type {module}
  */
 var axios = require("axios");
 
 
-/** time management used for timestamping transactions in {@link appendLogTxt} in log.txt file
+/** Time management used for timestamping transactions in {@link appendLogTxt} in log.txt file
  * @type {module}
  */
 var moment = require("moment");
 
 
-/** file handler fs module (per npm site this package inop since 2016)
+/** File handler fs module (per npm site this package inop since 2016)
  * @type {module}
  */
 var fs = require("fs");
 
 
-/** includes object for spotify keys: clientID and secret
+/** Includes object for spotify keys: clientID and secret
  * @type {module}
  */
 var keys = require("./keys.js");
@@ -54,7 +54,7 @@ var command = process.argv[2];
 var title = process.argv[3];
 
 
-/**called from {@link movieThis}, {@link concertThis}, {@link spotifyThisSong}, output to log.txt file
+/** Called from {@link movieThis}, {@link concertThis}, {@link spotifyThisSong}, output to log.txt file
  * @function appendLogTxt
  * @param {string} text
 */
@@ -71,7 +71,7 @@ const appendLogTxt = (text) => {
 
 
 
-/** called from {@link mainEntry} based on {@link command}="concert-this", returns next concert related data to console
+/** Called from {@link mainEntry} based on {@link command}="concert-this", returns next concert related data to console
  * @function concertThis
  * @param {string} artistBand
 */
@@ -105,7 +105,7 @@ const concertThis = (artistBand) => {
 
 
 
-/** called from {@link mainEntry} based on {@link command}="movie-this", returns movie related data to the console
+/** Called from {@link mainEntry} based on {@link command}="movie-this", returns movie related data to the console
  * @function movieThis
  * @param {string} movieTitle
  */
@@ -139,7 +139,7 @@ const movieThis = (movieTitle) => {
 
 
 
-/** called from {@link mainEntry} based on {@link command}=spotify-this-song returns song data from spotify
+/** Called from {@link mainEntry} based on {@link command}=spotify-this-song returns song data from spotify
  * @function spotifyThisSong
  * @param {string} songTitle 
  */
@@ -161,7 +161,7 @@ const spotifyThisSong = (songTitle) => {
 
 
 
-/** called from {@link mainEntry} when {@link command}="do-what-it-says"
+/** Called from {@link mainEntry} when {@link command}="do-what-it-says"
  * @function doWhatItSays
  */
 const doWhatItSays = () => {
@@ -181,7 +181,8 @@ const doWhatItSays = () => {
 }
 
 
-/** main entry point calls {@link spotifyThisSong}, {@link movieThis}, or {@link concertThis} based on {@link command}
+/** Main entry point calls {@link spotifyThisSong}, {@link movieThis}, or {@link concertThis} based on {@link command}.
+ *  Before calling, set {@link command} and {@link title} to string values
  * @function mainEntry
  */
 const mainEntry = () => {
