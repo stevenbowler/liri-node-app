@@ -8,6 +8,12 @@ In addition to the purpose mentioned above, the exercise of creating `liri-node-
 
 ### User Documentation
 
+User will need to create `.env` file and store personal `SPOTIFY_ID` and personal `SPOTIFY_SECRET` as shown in the following:
+````
+SPOTIFY_ID=your_spotify_id
+SPOTIFY_SECRET=your_spotify_secret
+````
+
 To best understand the app functionality, please first watch the following video: _*[liri-node-app](https://drive.google.com/file/d/10E7WnFGT-kwfidCYFJF2rwrz3oOCrV8y/view)*_.
 
 To run `liri-node-app` the user must follow these steps:

@@ -181,6 +181,7 @@ const doWhatItSays = () => {
 }
 
 
+
 /** Main entry point calls {@link spotifyThisSong}, {@link movieThis}, or {@link concertThis} based on {@link command}.
  *  Before calling, set {@link command} and {@link title} to string values
  * @function mainEntry
@@ -206,5 +207,7 @@ const mainEntry = () => {
         default: console.log(`Sorry, don't recognize this command: ${command}`); break;
     }
 }
+
+
 
 mainEntry();
