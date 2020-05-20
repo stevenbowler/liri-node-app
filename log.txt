@@ -107,3 +107,10 @@ Song: All The Small Things
 Band/Artist: blink-182
 Link to song: https://open.spotify.com/artist/6FBDaR13swtiWwGhX1WQsP
 Album: Enema Of The State
+
+concert-this Celine Dion Sat Apr 11 2020 09:44:55 GMT-0500
+Celine Dion next concert: 
+Date: 06/02/2020
+Venue: Hallenstadion
+City: Zürich
+Region: 

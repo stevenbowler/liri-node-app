@@ -1,4 +1,4 @@
-# liri-node-app    Homework 8
+# liri-node-app
 
 ### Overview
 
